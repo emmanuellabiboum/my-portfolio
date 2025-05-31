@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 import './index.css';
 const root = document.getElementById('root');
 createRoot(root).render(
-  <BrowserRouter>
+  <BrowserRouter basename="/my-portfolio">
     <Routes>
       <Route path="/" element={<App />}>
         <Route index element={null} />

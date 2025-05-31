@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import Card from './components/Card';
 import FeatureCard from './components/FeatureCard';
 import SocialLinks from './components/SocialLinks';
-
+import photo from './assets/1.jpg';
 function App() {
   const location = useLocation();
 
@@ -26,7 +26,7 @@ function App() {
               </div>
               <div className="md:w-1/2 flex justify-center">
                 <img
-                  src="src/assets/1.jpg"
+                  src={photo}
                   alt="Ma photo"
                   className="rounded-lg shadow-lg w-full max-w-xs md:max-w-md"
                 />

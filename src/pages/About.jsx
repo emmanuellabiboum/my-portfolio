@@ -25,13 +25,12 @@ export default function About() {
                 </div>
                 <div className="md:w-1/2 flex justify-center">
                     <img
-                        src="/images/2.jpg"
+                        src="/my-portfolio/images/2.jpg"
                         alt="Ma photo"
                         className="rounded-lg shadow-lg w-full max-w-xs md:max-w-md"
                     />
                 </div>
             </div>
-
 
             <div className="mb-8">
                 <h2 className="text-2xl font-semibold text-cyan-400 mb-3">Ma présentation vidéo</h2>

@@ -3,8 +3,8 @@ import { useParams } from 'react-router-dom';
 import ImageModal from '../components/ImageModal';
 
 const projects = [
-    { id: 1, titre: 'Réalisation de sites portfolio pour des particuliers', image: '/images/p1.jpeg' },
-    { id: 2, titre: 'Réalisation d un portefeuil électronique en cours...', image: '/images/p2.jpeg' },
+    { id: 1, titre: 'Réalisation de sites portfolio pour des particuliers', image: '/my-portfolio/images/p1.jpeg' },
+    { id: 2, titre: 'Réalisation d un portefeuil électronique en cours...', image: '/my-portfolio/images/p2.jpeg' },
 ];
 
 export default function Project() {
