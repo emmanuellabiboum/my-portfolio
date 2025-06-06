@@ -13,11 +13,10 @@ export default function About() {
                 <div className="md:w-1/2">
                     <h2 className="text-2xl font-semibold text-cyan-400 mb-3">Qui suis-je ?</h2>
                     <p className="text-gray-300 mb-4">
-                        Bonjour, je m’appelle Biboum Anne Emmanuella, Passionnée par le développement web, je crée des sites modernes et accessibles.
+                        Bonjour, je m’appelle Biboum Anne Emmanuella, Passionnée par le développement web et le marketing digital, je suis disposée à apprendre et à mettre mes compétences à votre service.
                     </p>
                     <p className="text-gray-300 mb-4">
-                        Actuellement en études d'informatique plus précisément dans le domaine du E-business, j’ai développé une expertise en HTML & CSS,
-                        JavaScript,C et je suis en plein apprentissage du React,Vite, Tailwind CSS et bien d’autres technologies.
+                       Je poursuis des études en Electronic-business et en dehors des cours, je suis passionnée par le developpent web et le designe UX/UI.
                     </p>
                     <p className="text-gray-300">
                         J’aime apprendre, partager mes connaissances et relever de nouveaux défis.
@@ -33,9 +32,11 @@ export default function About() {
             </div>
 
             <div className="mb-8">
-                <h2 className="text-2xl font-semibold text-cyan-400 mb-3">Ma présentation vidéo</h2>
+                <h2 className="text-2xl font-semibold text-cyan-400 mb-3">Cette vidéo sera bientôt disponible et vous présentera l'objet de mon stage, des conseils pour
+                    intégrer le monde du digital et des sites utiles que j'utilise au quotidien dans mon apprentissage.
+                </h2>
                 <p className="text-gray-300 mb-4">
-                    Vous découvrez mon parcours en vidéo dans peu.
+                    Vous découvrez mon parcours en vidéo.
                 </p>
                 <button
                     onClick={() => setIsOpen(true)}
@@ -69,13 +70,13 @@ export default function About() {
                     <div className="bg-gray-800 rounded-lg p-4">
                         <h3 className="text-lg font-semibold text-cyan-300 mb-2">Quelles sont mes compétences principales ?</h3>
                         <p className="text-gray-300">
-                            Je maîtrise JavaScript, HTML, CSS, et bien d’autres outils modernes dans le domaine des datas.
+                            Je maîtrise PHP,C, Java, HTML, CSS, et bien d’autres outils modernes comme PL/SQL et bien d'autres.
                         </p>
                     </div>
                     <div className="bg-gray-800 rounded-lg p-4">
                         <h3 className="text-lg font-semibold text-cyan-300 mb-2">Comment puis-je te contacter ?</h3>
                         <p className="text-gray-300">
-                            Tu peux utiliser le formulaire de contact ou me retrouver sur mes réseaux sociaux.
+                            Tu peux utiliser le formulaire de contact ou me retrouver sur mes différents réseaux sociaux.
                         </p>
                     </div>
                     <div className="bg-gray-800 rounded-lg p-4">

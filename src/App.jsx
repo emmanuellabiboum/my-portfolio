@@ -45,12 +45,13 @@ function App() {
                 title="Réalisation de sites portfolio pour des particuliers"
                 description="Des cadres m'ont approché pour me témoigner leur désir d'avoir une empreinte sur 
                 le Web de part des sites portfolio. Il s'agit d'un projet sur lequel je travaille activement 
-                et j'espère que vous pourrez le découvrir très vite sur ma page github."
+                et qui m'aide à découvrir les rouages de React, qui est un langage nouveau pour moi mais que j'affectionne énormément."
               />
               <Card
-                title="Réalisation d'un portefeuil électronique en cours..."
-                description="Dans le but de mieux gérer mon portefeuille, j'ai en tête de créer un portefeuille 
-                électronique le quel sera disponible d'ici la fin de l'année car des des doivent être fait par des professionnels."
+                title="Réalisation des flyers sur les opportunités du digital en Afrique"
+                description="Beaucoup de jeunes ont du mal à trouver des bon plan dans le domaine du digital, que ce soit dans le choix des
+                établissement ou encore dans le choix de la bonne certification pour mettre en valeur leur CV, dès lors, ce projet est destiné à leur 
+                venir en aide."
               />
             </div>
 
@@ -60,15 +61,16 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
               <FeatureCard
                 title="Déterminée"
-                description="Je suis prédisposée à ateindre mes objectifs personnels car je me qualifie comme étant persévérante."
+                description="Je suis prédisposée à ateindre mes objectifs personnels car je me qualifie comme étant persévérante et assidue dans mon travail."
               />
               <FeatureCard
                 title="Engagée"
-                description="Que ce soit dans la vie active ou estudiantine, je montre un intérêt particulier à certains travaux de groupe."
+                description="Ma curiosité et mon emphatie me permettent de pouvoir proposer des solutions efficaces pour les problèmes qui surviennent dans mon environement
+                au quotidien."
               />
               <FeatureCard
-                title="Spirituelle"
-                description="Parce qu'il existe une force au dessus de tout, qui nous guide, je suis une personne spirituelle et curieuse."
+                title="Sociable"
+                description="J'aime apprendre des autres et apporter ma contribution dans les activités de groupe."
               />
             </div>
           </>

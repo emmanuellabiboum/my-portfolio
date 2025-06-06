@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const projects = [
     { id: 1, titre: 'Réalisation de sites portfolio pour des particuliers', image: 'images/p1.jpeg' },
-    { id: 2, titre: 'Réalisation d un portefeuil électronique en cours...', image: '/my-portfolio/images/p2.jpeg' },
+    { id: 2, titre: 'Conception de flyers instructifs', image: '/my-portfolio/images/p.jpg' },
 ];
 
 export default function Projects() {

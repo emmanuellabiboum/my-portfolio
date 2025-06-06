@@ -10,7 +10,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "start": "vite",
+    "deploy": "gh-pages -d dist",
+  "eject": "react-scripts eject",
+  "test": "react-scripts test"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
