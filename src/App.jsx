@@ -20,7 +20,7 @@ function App() {
                   Bienvenue sur mon portfolio
                 </h2>
                 <p className="text-gray-300 text-lg">
-                  Je m’appelle BIBOUM ANNE EMMANUELLA, étudiante en 2e année E-business à <span className="font-semibold text-blue-700">FSEG Nabeul</span>, amatrice en développement web et bientôt entrepreneure junior,
+                  Je m’appelle BIBOUM ANNE EMMANUELLA, étudiante en 3e année E-business à <span className="font-semibold text-blue-700">FSEG Nabeul</span>, amatrice en développement web et bientôt entrepreneure junior,
                   je combine mes passions pour devenir la meilleure version de moi-même.
                 </p>
               </div>
@@ -41,12 +41,7 @@ function App() {
               Projets récents ? OUI
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
-              <Card
-                title="Réalisation de sites portfolio pour des particuliers"
-                description="Des cadres m'ont approché pour me témoigner leur désir d'avoir une empreinte sur 
-                le Web de part des sites portfolio. Il s'agit d'un projet sur lequel je travaille activement 
-                et qui m'aide à découvrir les rouages de React, qui est un langage nouveau pour moi mais que j'affectionne énormément."
-              />
+
               <Card
                 title="Réalisation des flyers sur les opportunités du digital en Afrique"
                 description="Beaucoup de jeunes ont du mal à trouver des bon plan dans le domaine du digital, que ce soit dans le choix des

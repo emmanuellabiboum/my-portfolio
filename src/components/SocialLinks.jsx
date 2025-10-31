@@ -1,9 +1,9 @@
-import { Instagram, Facebook, Mail, Github } from 'lucide-react';
+import { Instagram, Facebook, Mail, Github, Linkedin } from 'lucide-react';
 
 export default function SocialLinks() {
     return (
         <div className="flex flex-col items-center gap-6 mt-12">
-            <p className="text-gray-400 text-lg">Suivez mes réseaus pour en savoir plus</p>
+            <p className="text-gray-400 text-lg">Suivez mes réseaux pour en savoir plus</p>
             <div className="flex gap-6">
                 <a
                     href="https://www.instagram.com/an.ne_emma.nuella?igsh=MWZueW85b2hpejY4dw=="
@@ -26,6 +26,14 @@ export default function SocialLinks() {
                     className="text-gray-400 hover:text-cyan-400 transition"
                 >
                     < Mail className="w-6 h-6" />
+                </a>
+                <a
+                    href="https://www.linkedin.com/in/anne-emmanuella-biboum-746ab7302"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-cyan-400 transition"
+                >
+                    <Linkedin className="w-6 h-6" />
                 </a>
                 <a
                     href="https://github.com/emmanuellabiboum"

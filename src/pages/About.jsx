@@ -13,13 +13,27 @@ export default function About() {
                 <div className="md:w-1/2">
                     <h2 className="text-2xl font-semibold text-cyan-400 mb-3">Qui suis-je ?</h2>
                     <p className="text-gray-300 mb-4">
-                        Bonjour, je m’appelle Biboum Anne Emmanuella, Passionnée par le développement web et le marketing digital, je suis disposée à apprendre et à mettre mes compétences à votre service.
+                        Je m'appelle BIBOUM ANNE EMMANUELLA. Mon parcours est marqué par une double
+                        passion : si j'ai obtenu un baccalauréat littéraire au Cameroun en 2024, mon cœur a
+                        toujours penché vers l'univers fascinant de l'informatique.
                     </p>
                     <p className="text-gray-300 mb-4">
-                       Je poursuis des études en Electronic-business et en dehors des cours, je suis passionnée par le developpent web et le designe UX/UI.
+                        Cette attirance précoce pour le digital est devenue une évidence lorsque j'ai
+                        découvert le HTML et le CSS durant ma première année de faculté. C'est à partir
+                        de ma deuxième année que le développement web s'est imposé comme une véritable
+                        vocation.
                     </p>
-                    <p className="text-gray-300">
-                        J’aime apprendre, partager mes connaissances et relever de nouveaux défis.
+                    <p className="text-gray-300 mb-4">
+                        Déterminée à transformer cette passion en carrière, et malgré mon profil initial,
+                        j'ai pris l'initiative de postuler pour une bourse d'études en Tunisie afin de me
+                        spécialiser en Business Computing (BC). Ma candidature a été retenue, une sélection
+                        qui valide mon engagement et ma capacité à réussir une transition audacieuse vers
+                        ce domaine l'année même de l'obtention de mon baccalauréat.
+                    </p>
+                    <p className="text-gray-3003 mb-4">
+                        Aujourd'hui, loin des bancs de l'école primaire et secondaire au Cameroun, je suis
+                        plus que jamais investie dans le développement web, prête à combiner ma rigueur
+                        littéraire avec mes compétences techniques.
                     </p>
                 </div>
                 <div className="md:w-1/2 flex justify-center">
@@ -32,11 +46,10 @@ export default function About() {
             </div>
 
             <div className="mb-8">
-                <h2 className="text-2xl font-semibold text-cyan-400 mb-3">Cette vidéo sera bientôt disponible et vous présentera l'objet de mon stage, des conseils pour
-                    intégrer le monde du digital et des sites utiles que j'utilise au quotidien dans mon apprentissage.
+                <h2 className="text-2xl font-semibold text-cyan-400 mb-3">Cette vidéo sera bientôt disponible .
                 </h2>
                 <p className="text-gray-300 mb-4">
-                    Vous découvrez mon parcours en vidéo.
+                    Ceci est mon parcours en vidéo.
                 </p>
                 <button
                     onClick={() => setIsOpen(true)}
@@ -70,11 +83,11 @@ export default function About() {
                     <div className="bg-gray-800 rounded-lg p-4">
                         <h3 className="text-lg font-semibold text-cyan-300 mb-2">Quelles sont mes compétences principales ?</h3>
                         <p className="text-gray-300">
-                            Je maîtrise PHP,C, Java, HTML, CSS, et bien d’autres outils modernes comme PL/SQL et bien d'autres.
+                            Je maîtrise plusieurs langages de programmation et technologies web comme Java, Python, PHP, HTML, CSS, Laravel etc...
                         </p>
                     </div>
                     <div className="bg-gray-800 rounded-lg p-4">
-                        <h3 className="text-lg font-semibold text-cyan-300 mb-2">Comment puis-je te contacter ?</h3>
+                        <h3 className="text-lg font-semibold text-cyan-300 mb-2">Comment te contacter ?</h3>
                         <p className="text-gray-300">
                             Tu peux utiliser le formulaire de contact ou me retrouver sur mes différents réseaux sociaux.
                         </p>

@@ -12,8 +12,8 @@
     "predeploy": "npm run build",
     "start": "vite",
     "deploy": "gh-pages -d dist",
-  "eject": "react-scripts eject",
-  "test": "react-scripts test"
+    "eject": "react-scripts eject",
+    "test": "react-scripts test"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
