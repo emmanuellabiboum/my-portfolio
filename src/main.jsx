@@ -4,7 +4,6 @@ import App from './App';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Project from './pages/Project';
-import Contact from './pages/Contact';
 import './index.css';
 const root = document.getElementById('root');
 createRoot(root).render(
@@ -15,7 +14,6 @@ createRoot(root).render(
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/:id" element={<Project />} />
-        <Route path="/contact" element={<Contact />} />
       </Route>
     </Routes>
   </BrowserRouter>

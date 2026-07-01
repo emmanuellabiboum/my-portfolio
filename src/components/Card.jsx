@@ -1,8 +1,15 @@
-export default function Card({ title, description }) {
-    return (
-        <div className="bg-gray-800 rounded-xl p-6 transition-transform hover:scale-[1.02] hover:shadow-xl hover:shadow-cyan-400/10">
-            <h3 className="text-xl font-semibold text-cyan-400 mb-2">{title}</h3>
-            <p className="text-gray-300">{description}</p>
-        </div>
-    );
+export default function Card({ title, description, showDescription = true }) {
+  return (
+    <div className="rounded-xl p-6 h-full flex flex-col transition-all duration-300 hover:scale-[1.02] hover:shadow-xl hover:shadow-red-700/20 card-bg">
+      <h3 className="text-xl font-semibold accent mb-4">
+        {title}
+      </h3>
+
+      {showDescription && (
+        <p className="card-text leading-7 flex-1">
+          {description}
+        </p>
+      )}
+    </div>
+  );
 }

@@ -1,9 +1,9 @@
 export default function FeatureCard({ icon, title, description }) {
     return (
-        <div className="bg-gray-800 rounded-xl p-6 transition-transform hover:scale-[1.02] hover:shadow-xl hover:shadow-cyan-400/10">
+        <div className="rounded-xl p-6 transition-transform hover:scale-[1.02] hover:shadow-xl hover:shadow-red-700/20 card-bg">
             <div className="text-4xl mb-4">{icon}</div>
-            <h3 className="text-xl font-semibold text-cyan-400 mb-2">{title}</h3>
-            <p className="text-gray-300">{description}</p>
+            <h3 className="text-xl font-semibold accent mb-2">{title}</h3>
+            <p className="card-text">{description}</p>
         </div>
     );
 }

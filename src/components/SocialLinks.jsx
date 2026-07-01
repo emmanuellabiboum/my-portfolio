@@ -7,16 +7,12 @@ export default function SocialLinks() {
             <div className="flex gap-6">
                 <a
                     href="https://www.instagram.com/an.ne_emma.nuella?igsh=MWZueW85b2hpejY4dw=="
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="text-gray-400 hover:text-cyan-400 transition"
                 >
                     <Instagram className="w-6 h-6" />
                 </a>
                 <a
                     href="https://www.facebook.com/share/1AY9yKo4KM/"
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="text-gray-400 hover:text-cyan-400 transition"
                 >
                     <Facebook className="w-6 h-6" />
@@ -29,8 +25,6 @@ export default function SocialLinks() {
                 </a>
                 <a
                     href="https://www.linkedin.com/in/anne-emmanuella-biboum-746ab7302"
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="text-gray-400 hover:text-cyan-400 transition"
                 >
                     <Linkedin className="w-6 h-6" />
